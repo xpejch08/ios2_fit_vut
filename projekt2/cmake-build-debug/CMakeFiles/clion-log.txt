@@ -1,0 +1,1 @@
+CMakeLists.txt not found in /home/stepan/Documents/programy/ios/projekt2 Select CMakeLists.txt

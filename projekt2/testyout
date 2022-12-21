@@ -1,0 +1,691 @@
+[ [36m*[37m ] Test script has started
+[ [34mT[37m ] Test for: Makefile
+[[31mERR[37m] Makefile doesn't exists
+[ [36m*[37m ] Following tests expect program to fail
+[[31mERR[37m] Test failed
+[ [34mT[37m ] Test for: No arguments
+[[32mOK[37m ] Test passed
+[ [34mT[37m ] Test for: Two arguments
+[[32mOK[37m ] Test passed
+[ [34mT[37m ] Test for: Three arguments
+[[32mOK[37m ] Test passed
+[ [34mT[37m ] Test for: Five arguments
+[[32mOK[37m ] Test passed
+[ [34mT[37m ] Test for: Negative NO
+[[32mOK[37m ] Test passed
+[ [34mT[37m ] Test for: NO not a number
+[[32mOK[37m ] Test passed
+[ [34mT[37m ] Test for: Missing NO
+[[32mOK[37m ] Test passed
+[ [34mT[37m ] Test for: Negative NH
+[[32mOK[37m ] Test passed
+[ [34mT[37m ] Test for: NH not a number
+[[32mOK[37m ] Test passed
+[ [34mT[37m ] Test for: Missing NH
+[[32mOK[37m ] Test passed
+[ [34mT[37m ] Test for: Negative TI
+[[32mOK[37m ] Test passed
+[ [34mT[37m ] Test for: Too big TI
+[[32mOK[37m ] Test passed
+[ [34mT[37m ] Test for: TI not a number
+[[32mOK[37m ] Test passed
+[ [34mT[37m ] Test for: Missing TI
+[[31mERR[37m] Missing error output on stderr
+[[31mERR[37m] Wrong return code, should be set to 1
+[[31mERR[37m] Test failed
+[ [34mT[37m ] Test for: Negative TB
+[[32mOK[37m ] Test passed
+[ [34mT[37m ] Test for: Too big TB
+[[32mOK[37m ] Test passed
+[ [34mT[37m ] Test for: TB not a number
+[[32mOK[37m ] Test passed
+[ [34mT[37m ] Test for: Missing TB
+[[31mERR[37m] Missing error output on stderr
+[[31mERR[37m] Wrong return code, should be set to 1
+[[31mERR[37m] Test failed
+[ [34mT[37m ] Test for: No atoms (0, 0, 100, 100)
+[ [36m*[37m ] Following tests expect program to succeed
+[[32mOK[37m ] Test passed
+[ [34mT[37m ] Test for: Not enough of atoms for molecule (1, 1, 100, 100)
+[[31mERR[37m] Sleeps should be in miliseconds, but found some in microseconds
+[[31mERR[37m] Test failed
+[ [34mT[37m ] Test for: Creating one molecule (1, 2, 100, 100)
+[[31mERR[37m] Sleeps should be in miliseconds, but found some in microseconds
+[[31mERR[37m] Test failed
+[ [34mT[37m ] Test for: Maximal sleep (1, 2, 1000, 1000)
+[[31mERR[37m] Sleeps should be in miliseconds, but found some in microseconds
+[[31mERR[37m] Test failed
+[ [34mT[37m ] Test for: Minimal sleep (1, 2, 0, 0)
+[[32mOK[37m ] Test passed
+[ [34mT[37m ] Test for: Test from assigment (3, 5, 100, 100)
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 10: O 3: not enough H
+[[31mERR[37m] Sleeps should be in miliseconds, but found some in microseconds
+[[31mERR[37m] Test failed
+[ [34mT[37m ] Test for: One additional hydrogen and oxygen (2, 3, 0, 0)
+[[32mOK[37m ] Test passed
+[ [34mT[37m ] Test for: Stress test 1 (100, 100, 30, 30)
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 110: O 95: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 113: O 53: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 131: O 57: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 134: O 59: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 136: O 60: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 142: O 58: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 149: O 62: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 161: O 65: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 166: O 64: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 169: O 21: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 182: O 38: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 186: O 70: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 221: O 79: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 226: O 81: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 231: O 43: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 241: O 84: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 243: O 85: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 253: O 88: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 255: O 16: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 257: O 45: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 259: O 90: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 262: O 86: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 265: O 48: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 268: O 94: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 270: O 47: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 272: O 92: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 277: O 98: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 279: O 96: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 284: O 97: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 285: O 49: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 287: O 29: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 288: O 51: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 290: O 100: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 305: O 10: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 351: O 55: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 355: O 9: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 418: O 61: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 441: O 34: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 462: O 66: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 471: O 68: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 521: O 37: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 527: O 72: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 573: O 39: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 581: O 74: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 618: O 22: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 620: O 76: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 665: O 23: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 669: O 78: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 723: O 80: not enough H
+[[31mERR[37m] Sleeps should be in miliseconds, but found some in microseconds
+[[31mERR[37m] Test failed
+[ [34mT[37m ] Test for: Stress test 2 (150, 50, 30, 30)
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 54: O 46: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 56: O 27: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 68: O 54: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 70: O 59: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 72: O 57: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 75: O 31: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 77: O 66: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 78: O 61: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 79: O 29: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 80: O 50: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 86: O 75: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 87: O 68: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 89: O 22: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 95: O 77: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 97: O 83: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 109: O 43: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 112: O 48: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 114: O 49: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 116: O 84: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 117: O 45: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 119: O 44: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 122: O 86: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 126: O 15: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 128: O 51: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 130: O 93: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 133: O 2: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 135: O 104: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 147: O 99: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 148: O 56: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 149: O 58: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 150: O 53: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 152: O 115: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 154: O 55: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 156: O 33: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 161: O 34: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 162: O 63: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 164: O 62: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 170: O 129: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 171: O 132: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 172: O 60: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 177: O 137: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 181: O 70: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 183: O 67: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 184: O 35: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 186: O 146: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 191: O 72: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 193: O 138: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 227: O 80: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 232: O 81: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 241: O 40: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 243: O 41: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 248: O 85: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 251: O 87: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 260: O 88: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 261: O 90: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 262: O 89: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 263: O 42: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 265: O 91: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 268: O 92: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 272: O 47: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 279: O 97: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 281: O 98: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 283: O 94: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 284: O 95: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 285: O 96: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 290: O 28: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 295: O 101: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 297: O 100: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 320: O 109: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 322: O 114: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 323: O 103: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 324: O 106: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 325: O 111: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 326: O 108: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 327: O 105: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 328: O 112: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 329: O 52: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 330: O 113: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 331: O 102: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 333: O 107: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 334: O 110: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 337: O 11: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 340: O 116: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 343: O 117: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 351: O 120: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 359: O 119: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 364: O 124: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 367: O 128: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 368: O 126: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 369: O 122: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 370: O 127: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 377: O 125: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 378: O 123: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 379: O 118: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 380: O 64: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 382: O 130: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 393: O 121: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 394: O 133: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 396: O 135: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 397: O 65: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 398: O 136: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 399: O 134: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 403: O 131: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 416: O 141: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 417: O 140: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 418: O 139: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 420: O 36: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 422: O 69: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 423: O 144: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 425: O 142: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 426: O 143: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 439: O 71: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 441: O 148: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 442: O 150: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 443: O 147: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 444: O 149: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 446: O 145: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 451: O 73: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 452: O 74: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 511: O 12: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 514: O 76: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 558: O 39: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 565: O 78: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 609: O 79: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 628: O 82: not enough H
+[[31mERR[37m] Sleeps should be in miliseconds, but found some in microseconds
+[[31mERR[37m] Test failed
+[ [34mT[37m ] Test for: Stress test 3 (50, 150, 30, 30)
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 588: H 99: not enough O or H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 594: H 1: not enough O or H
+[[31mERR[37m] Wrong id of line, expected 596
+[[31mERR[37m] Wrong amount of molecules created: found 48, expected 50
+[[31mERR[37m] Oxygen 9 wasn't started
+[[31mERR[37m] Oxygen 31 wasn't started
+[[31mERR[37m] Hydrogen 2 didn't attempted to create molecule
+[[31mERR[37m] Hydrogen 3 wasn't started
+[[31mERR[37m] Hydrogen 7 wasn't started
+[[31mERR[37m] Hydrogen 8 wasn't started
+[[31mERR[37m] Hydrogen 10 wasn't started
+[[31mERR[37m] Hydrogen 12 wasn't started
+[[31mERR[37m] Hydrogen 90 didn't attempted to create molecule
+[[31mERR[37m] Hydrogen 96 didn't attempted to create molecule
+[[31mERR[37m] Hydrogen 97 didn't attempted to create molecule
+[[31mERR[37m] Hydrogen 98 didn't attempted to create molecule
+[[31mERR[37m] Hydrogen 100 didn't went to queue
+[[31mERR[37m] Hydrogen 103 didn't attempted to create molecule
+[[31mERR[37m] Hydrogen 104 wasn't started
+[[31mERR[37m] Hydrogen 105 wasn't started
+[[31mERR[37m] Hydrogen 106 wasn't started
+[[31mERR[37m] Hydrogen 107 wasn't started
+[[31mERR[37m] Hydrogen 108 wasn't started
+[[31mERR[37m] Hydrogen 111 wasn't started
+[[31mERR[37m] Hydrogen 112 wasn't started
+[[31mERR[37m] Hydrogen 113 wasn't started
+[[31mERR[37m] Hydrogen 114 wasn't started
+[[31mERR[37m] Hydrogen 115 wasn't started
+[[31mERR[37m] Hydrogen 116 wasn't started
+[[31mERR[37m] Hydrogen 117 wasn't started
+[[31mERR[37m] Hydrogen 119 wasn't started
+[[31mERR[37m] Hydrogen 120 wasn't started
+[[31mERR[37m] Hydrogen 121 wasn't started
+[[31mERR[37m] Hydrogen 122 wasn't started
+[[31mERR[37m] Hydrogen 123 wasn't started
+[[31mERR[37m] Hydrogen 124 wasn't started
+[[31mERR[37m] Hydrogen 127 wasn't started
+[[31mERR[37m] Hydrogen 128 wasn't started
+[[31mERR[37m] Hydrogen 129 wasn't started
+[[31mERR[37m] Hydrogen 130 wasn't started
+[[31mERR[37m] Hydrogen 131 wasn't started
+[[31mERR[37m] Hydrogen 132 wasn't started
+[[31mERR[37m] Hydrogen 133 wasn't started
+[[31mERR[37m] Hydrogen 135 wasn't started
+[[31mERR[37m] Hydrogen 136 wasn't started
+[[31mERR[37m] Hydrogen 137 wasn't started
+[[31mERR[37m] Hydrogen 138 wasn't started
+[[31mERR[37m] Hydrogen 139 wasn't started
+[[31mERR[37m] Hydrogen 140 wasn't started
+[[31mERR[37m] Hydrogen 141 wasn't started
+[[31mERR[37m] Hydrogen 142 wasn't started
+[[31mERR[37m] Hydrogen 143 wasn't started
+[[31mERR[37m] Hydrogen 145 wasn't started
+[[31mERR[37m] Hydrogen 146 wasn't started
+[[31mERR[37m] Hydrogen 147 wasn't started
+[[31mERR[37m] Hydrogen 148 wasn't started
+[[31mERR[37m] Hydrogen 149 wasn't started
+[[31mERR[37m] Hydrogen 150 wasn't started
+[[31mERR[37m] Sleeps should be in miliseconds, but found some in microseconds
+[[31mERR[37m] Test failed
+[ [34mT[37m ] Test for: Stress test 4 (100, 101, 0, 0)
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 106: O 83: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 107: O 52: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 110: O 86: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 113: O 89: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 115: O 92: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 126: O 56: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 132: O 100: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 134: O 97: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 135: O 37: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 156: O 40: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 186: O 72: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 189: O 73: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 203: O 76: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 208: O 78: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 209: O 77: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 220: O 80: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 223: O 81: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 225: O 50: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 228: O 33: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 231: O 84: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 234: O 85: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 237: O 53: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 240: O 87: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 244: O 88: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 249: O 90: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 251: O 91: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 254: O 54: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 255: O 93: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 257: O 36: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 263: O 94: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 265: O 96: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 266: O 95: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 271: O 57: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 274: O 99: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 276: O 98: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 280: O 59: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 283: O 60: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 296: O 15: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 351: O 10: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 358: O 63: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 405: O 65: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 413: O 66: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 464: O 68: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 469: O 67: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 496: O 69: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 501: O 5: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 536: O 71: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 563: O 74: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 578: O 75: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 603: O 79: not enough H
+[[31mERR[37m] Test failed
+[ [34mT[37m ] Test for: Stress test 5 (1000, 1001, 0, 0)
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 105: O 97: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 107: O 99: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 141: O 60: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 157: O 63: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 166: O 65: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 171: O 66: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 175: O 7: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 181: O 67: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 184: O 70: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 197: O 75: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 199: O 73: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 205: O 72: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 211: O 78: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 215: O 18: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 227: O 19: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 230: O 44: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 232: O 85: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 234: O 83: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 239: O 20: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 242: O 88: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 245: O 89: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 251: O 47: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 254: O 77: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 261: O 95: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 263: O 94: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 266: O 48: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 268: O 51: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 271: O 46: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 273: O 92: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 281: O 26: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 288: O 100: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 290: O 54: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 291: O 11: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 292: O 6: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 293: O 24: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 295: O 98: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 345: O 55: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 351: O 56: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 390: O 57: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 393: O 28: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 434: O 30: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 443: O 14: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 480: O 62: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 488: O 64: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 558: O 35: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 573: O 5: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 638: O 74: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 646: O 76: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 709: O 42: not enough H
+[[31mERR[37m] Atoms shouldn't report not enough of other atoms, before all molecules are created
+[ [36m*[37m ] Line: 717: O 81: not enough H
+[[31mERR[37m] Test failed
+[ [36m*[37m ] Test script has finnished
+[ [36m*[37m ] Total of 31 tests were run, 12 failed
+[ [36m*[37m ] You can try running the script as ./test.py --show-out to show ./proj2.out on failed tests
+[31mSome tests have failed :([37m
